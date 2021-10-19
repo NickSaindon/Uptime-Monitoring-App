@@ -12,7 +12,7 @@
     <script type="text/javascript" charset="utf-8" src="public/app.js"></script>
     <link rel="stylesheet" type="text/css" href="public/styles.css"> </link>
 </head>
-<body>
+<body class="{body.class}">
     <!-- Page Wrapper -->
     <div class="wrapper">
         <!-- Header -->
@@ -25,20 +25,20 @@
                 <li>
                     <a href="/">Home</a>
                 </li>
-                <li>
-                    <a class="loggedOut" href="/account/create">Signup</a>
+                <li class="loggedOut">
+                    <a  href="/account/create">Signup</a>
                 </li>
-                <li>
-                    <a class="loggedOut" href="/session/create">Login</a>
+                <li class="loggedOut"> 
+                    <a  href="/session/create">Login</a>
                 </li>
-                <li>
-                    <a class="loggedIn" href="/checks/all">Dashboard</a>
+                <li class="loggedIn">
+                    <a  href="/checks/all">Dashboard</a>
                 </li>
-                <li>
-                    <a class="loggedIn" href="/account/edit">Account Settings</a>
+                <li class="loggedIn"> 
+                    <a  href="/account/edit">Account Settings</a>
                 </li>
-                <li>
-                    <a class="loggedIn" href="#">Logout</a>
+                <li class="loggedIn">
+                    <a href="#" id="logoutButton">Logout</a>
                 </li>
             </ul>
         </div>
